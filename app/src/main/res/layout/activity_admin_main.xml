@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:padding="16dp"
+    tools:context=".AdminMainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:text="Users"
+    android:textColor="@color/black"
+    android:textSize="30sp"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:numColumns="2"
+        android:id="@+id/rvAdminUsers"
+        android:orientation="horizontal">
+
+    </GridView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Products"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:numColumns="2"
+        android:id="@+id/rvBooks"
+        android:orientation="horizontal"/>
+</LinearLayout>

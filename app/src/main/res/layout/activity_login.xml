@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:padding="16dp"
+
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginBottom="-80dp"
+        android:src="@mipmap/ic_logo_foreground"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="28sp"
+        android:fontFamily="cursive"
+        android:textFontWeight="900"
+        android:gravity="center"
+        android:textColor="@color/green_main_color"
+        android:text="@string/app_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="26sp"
+
+        android:textColor="@color/black"
+        android:text="@string/welcome"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:imeOptions="actionDone"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:id="@+id/et_login_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:id="@+id/et_login_password"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="forget password?"
+        android:textColor="#00f"
+        android:id="@+id/tv_forgetPassword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_custom"
+        android:layout_weight="1"
+        android:id="@+id/btn_login_signin"
+        android:text="@string/sign_in"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.7">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="@string/don_t_have_an_account"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:id="@+id/registerBtn"
+            android:background="@drawable/button_custom"
+            android:text="@string/sign_up"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.140625" />
+        <entry key="app/src/main/res/drawable/button_custom.xml" value="0.2035" />
+        <entry key="app/src/main/res/layout/activity_admin_book_confirmation.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/activity_admin_main.xml" value="0.3431594848632813" />
+        <entry key="app/src/main/res/layout/activity_admin_users_managment.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/activity_buyer_book_details.xml" value="0.30512820512820515" />
+        <entry key="app/src/main/res/layout/activity_buyer_book_pay_confirmation.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/activity_buyer_main.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_buyer_set_location.xml" value="0.35116729736328123" />
+        <entry key="app/src/main/res/layout/activity_done.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.37267333984375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/activity_reset_password.xml" value="0.2053410847981771" />
+        <entry key="app/src/main/res/layout/activity_seller_add_product.xml" value="0.30574798583984375" />
+        <entry key="app/src/main/res/layout/activity_seller_main.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/adminbooksitem.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/adminusersitem.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/signup.xml" value="0.221875" />
+        <entry key="app/src/main/res/xml/button_main.xml" value="0.221875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
